@@ -2,7 +2,6 @@ window.onload = (event) => {
   var slideIndex = 1;
   var myTimer;
 
-  console.log("page is fully loaded");
   showSlides(slideIndex);
   myTimer = setInterval(function () {
     prevNext(1);
@@ -26,7 +25,6 @@ window.onload = (event) => {
     manufacturing units predominantly produces infants and children
     for global needs.`;
 
-    console.log("Apprel section CLICKED.....");
   });
 
   //   art
@@ -44,7 +42,6 @@ window.onload = (event) => {
     involve creative imagination and an aim to express technical proficiency,
      beauty, emotional power, or conceptual ideas.The nature of art and related concepts, such as creativity and interpretation, are explored in a branch of philosophy known as aesthetics.`;
 
-    console.log("Art section CLICKED.....");
   });
 
   //   collectibles
@@ -63,7 +60,6 @@ window.onload = (event) => {
         "apparels_details"
       ).innerHTML = `A collectible refers to an item that is worth far more than it was originally sold for because of its rarity. The price for a particular collectible usually depends on how many of the same items are available as well as its overall condition.`;
 
-      console.log("Collectibles section CLICKED.....");
     });
 
   // accessories
@@ -79,7 +75,6 @@ window.onload = (event) => {
       "apparels_details"
     ).innerHTML = `In fashion, an accessory is an item used to contribute, in a secondary manner, to an individual's outfit. Accessories are often chosen to complete an outfit and complement the wearer's look. They have the capacity to further express an individual's identity and personality.`;
 
-    console.log("Accessories section CLICKED.....");
   });
 
   // clearance
@@ -95,7 +90,6 @@ window.onload = (event) => {
       "apparels_details"
     ).innerHTML = `Every agent can't have the intel on every mission. There were 10 levels of clearance, as well as Level Alpha. As agents moved up from Level 1, they gained access to more information, and frequently, more power, though rank and clearance level is not necessarily correlated.`;
 
-    console.log("Clearance section CLICKED.....");
   });
 
   //   SLIDESHOW
